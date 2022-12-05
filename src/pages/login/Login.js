@@ -16,7 +16,7 @@ export default function Login() {
     <form className={styles["login-form"]} onSubmit={handleSubmit}>
       <h2>Login</h2>
       <label>
-        <span>email:</span>
+        <span>Email:</span>
         <input
           type='email'
           onChange={(e) => setEmail(e.target.value)}
@@ -24,7 +24,7 @@ export default function Login() {
         />
       </label>
       <label>
-        <span>password:</span>
+        <span>Password:</span>
         <input
           type='password'
           onChange={(e) => setPassword(e.target.value)}

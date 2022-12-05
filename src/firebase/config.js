@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 // init services
 const projectFirestore = getFirestore();
