@@ -5,6 +5,18 @@
 /.pnp
 .pnp.js
 
+
+### Firebase ###
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+firebase.json
+**/.*
+**/node_modules/**
+
+
 # testing
 /coverage
 
